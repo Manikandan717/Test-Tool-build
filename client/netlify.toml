@@ -12,7 +12,9 @@
     functions = "index.js"    # Specify the directory containing your serverless functions
 
 # Optional: Redirects or other settings specific to your project
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
   status = 200
+
