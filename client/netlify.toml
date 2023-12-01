@@ -9,7 +9,7 @@
 [[plugins]]
   package = "@netlify/plugin-functions"  # Use the Netlify Functions plugin
   [plugins.inputs]
-    functions = "index.html"    # Specify the directory containing your serverless functions
+    functions = "index.js"    # Specify the directory containing your serverless functions
 
 # Optional: Redirects or other settings specific to your project
 [[redirects]]
